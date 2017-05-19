@@ -5,7 +5,7 @@ import styled from 'styled-components';
 class Tile extends Component {
   render() {
    
-   const image = '/images/' + this.props.image;
+   const image = 'images/' + this.props.image;
 
    const Wrapper = styled.section`
       position: relative;
@@ -37,7 +37,7 @@ class Tile extends Component {
       width: 15px;
       height: 15px;
       background-size:auto 100%;
-      background-image: url('/images/logo.png');
+      background-image: url('images/logo.png');
    `;
 
    const Title = styled.div`
